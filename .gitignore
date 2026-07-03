@@ -1,0 +1,10 @@
+# Local environment files can contain credentials.
+.env
+.env.*
+!.env.example
+
+# Notebook and spreadsheet exports may include query results or identifiers.
+*.ipynb
+.ipynb_checkpoints/
+*.xls
+*.xlsx
